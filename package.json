@@ -1,0 +1,49 @@
+{
+  "name": "ptz-math",
+  "version": "1.0.0",
+  "description": "ptz-math is a library for math operations such as random()",
+  "main": "math.js",
+  "scripts": {
+    "postinstall": "typings install",
+    "pretest": "gulp js",
+    "mocha": "mocha ./dist/test",
+    "test": "nyc npm run mocha && nyc report --reporter=text-lcov > coverage.lcov && codecov --token=3638f4c2-2510-4221-9301-6b825f754b8f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeloocana/ptz-math.git"
+  },
+  "keywords": [
+    "polutz",
+    "ptz",
+    "math",
+    "random"
+  ],
+  "author": "angeloocana.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angeloocana/ptz-math/issues"
+  },
+  "homepage": "https://github.com/angeloocana/ptz-math#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "codecov": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "mocha-lcov-reporter": "^1.2.0",
+    "nyc": "^8.4.0",
+    "ptz-assert": "^1.0.8",
+    "typescript": "^2.0.8",
+    "typings": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-typescript": "^3.1.3"
+  },
+  "dependencies": {},
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
