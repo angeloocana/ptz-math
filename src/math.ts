@@ -1,4 +1,4 @@
-let random = function (min:number, max:number) {
+let random = function (min:number, max:number):number {
     return Math.floor(Math.random() * max) + min;
 };
 
