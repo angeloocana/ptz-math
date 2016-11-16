@@ -1,6 +1,6 @@
 {
   "name": "ptz-math",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ptz-math is a library for math operations such as random()",
   "main": "math.js",
   "scripts": {
