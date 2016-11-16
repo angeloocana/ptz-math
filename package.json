@@ -1,8 +1,8 @@
 {
   "name": "ptz-math",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ptz-math is a library for math operations such as random()",
-  "main": "math.js",
+  "main": "dist/math.js",
   "scripts": {
     "postinstall": "typings install",
     "pretest": "gulp js",
