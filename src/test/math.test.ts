@@ -12,12 +12,12 @@ describe("Math", () => {
             randomNumber = random(min, max);
         });
 
-        it("> min", () => {
-            ok(randomNumber>min);
+        it(">= min", () => {
+            ok(randomNumber >= min, "randomNumber: " + randomNumber + "; min:"+ min);
         });
 
-        it("< max", () => {
-            ok(randomNumber<max);
+        it("<= max", () => {
+            ok(randomNumber <= max, "randomNumber: " + randomNumber + "; max:"+ max);
         });
     });
 });

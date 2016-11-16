@@ -12,11 +12,11 @@ describe("Math", function () {
         beforeEach(function () {
             randomNumber = (0, _math.random)(min, max);
         });
-        it("> min", function () {
-            (0, _ptzAssert.ok)(randomNumber > min);
+        it(">= min", function () {
+            (0, _ptzAssert.ok)(randomNumber >= min, "randomNumber: " + randomNumber + "; min:" + min);
         });
-        it("< max", function () {
-            (0, _ptzAssert.ok)(randomNumber < max);
+        it("<= max", function () {
+            (0, _ptzAssert.ok)(randomNumber <= max, "randomNumber: " + randomNumber + "; max:" + max);
         });
     });
 });
