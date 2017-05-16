@@ -1,0 +1,9 @@
+{
+  "generator-ptz": {
+    "promptValues": {
+      "appname": "ptz-math",
+      "githubAuthor": "angeloocana",
+      "codecovToken": "3638f4c2-2510-4221-9301-6b825f754b8f"
+    }
+  }
+}

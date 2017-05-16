@@ -7,40 +7,40 @@
 [![bitHound Score](https://www.bithound.io/github/gotwarlost/istanbul/badges/score.svg)](https://www.bithound.io/github/angeloocana/ptz-math)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-## Translations
+## Traduções
 [pt-br](https://github.com/angeloocana/ptz-math/blob/master/README.pt-br.md)
 [en-us](https://github.com/angeloocana/ptz-math/blob/master/README.md)
 
-ptz-math is a Polutz module.
+ptz-math é um módulo Polutz.
 
 
-## Use
+## Como usar
 
-### Install
+### Instalação
 ```
     npm install --save ptz-math
 ```
 
-### How to use
+### Como usar
 ```
     import  from ptz-math;
 
 ```
 
 
-## Contribute
+## Contribuir com o projeto
 
 ### NPM Global packages
 ```
     npm install -g ts-node babel-cli
 ```
 
-### Setup
+### Instalação
 ```
     npm install   
 ```
 
-### Test
+### Teste
 ```
     npm test
 ```
