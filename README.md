@@ -11,8 +11,12 @@
 [pt-br](https://github.com/angeloocana/ptz-math/blob/master/README.pt-br.md)
 [en-us](https://github.com/angeloocana/ptz-math/blob/master/README.md)
 
-ptz-math is a Polutz module.
+> ptz-math is a javascript library for math operations
+>
+> Be welcome to learn, help and play!!!
 
+## Docs
+[Full docs](https://angeloocana.github.io/ptz-math/)
 
 ## Use
 
@@ -22,9 +26,12 @@ ptz-math is a Polutz module.
 ```
 
 ### How to use
-```
-    import  from ptz-math;
-
+Get random number between 2 and 8:
+```js
+    import { random } from ptz-math;
+    const min = 2;
+    const max = 8;
+    const randomNumber = random(min, max);
 ```
 
 

@@ -13,6 +13,8 @@
 
 ptz-math é um módulo Polutz.
 
+## Docs
+[Documentação completa](https://angeloocana.github.io/ptz-math/)
 
 ## Como usar
 
@@ -22,9 +24,12 @@ ptz-math é um módulo Polutz.
 ```
 
 ### Como usar
-```
-    import  from ptz-math;
-
+Obter número randomico entre 2 and 8:
+```js
+    import { random } from ptz-math;
+    const min = 2;
+    const max = 8;
+    const randomNumber = random(min, max);
 ```
 
 
