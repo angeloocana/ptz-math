@@ -1,7 +1,11 @@
 ## master
 
 
+## 1.0.3 (May 16, 2016)
 
-## 1.0.0 (March 30, 2017)
+* Update typescript.
+* Add docs.
+
+## 1.0.0 (..., 2016)
 
 * Initial public release.
