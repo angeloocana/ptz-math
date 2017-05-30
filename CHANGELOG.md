@@ -1,7 +1,11 @@
 ## master
 
 
-## 1.0.3 (May 16, 2016)
+## 1.1.0 (May 30, 2017)
+
+* Add getRandomItem.
+
+## 1.0.3 (May 16, 2017)
 
 * Update typescript.
 * Add docs.
