@@ -2,7 +2,7 @@
   "name": "ptz-math",
   "version": "1.0.3",
   "description": "ptz-math is a library for math operations such as random()",
-  "main": "dist/math.js",
+  "main": "dist/index.js",
   "typings": "src/index.ts",
   "scripts": {
     "lint": "tslint ./src/**/*.ts ./src/**/*.test.ts ./src/**/*.d.ts",
