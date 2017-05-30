@@ -27,9 +27,18 @@ ptz-math é um módulo Polutz.
 Obter número randomico entre 2 and 8:
 ```js
     import { random } from ptz-math;
+
     const min = 2;
     const max = 8;
     const randomNumber = random(min, max);
+```
+
+Obter item randomico de uma lista:
+```js
+    import { getRandomItem } from ptz-math;
+
+    const list = ['a', 'b', 'c', 'd'];
+    const randomItem = getRandomItem(list);
 ```
 
 
